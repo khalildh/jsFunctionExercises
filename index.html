@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Exercises</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+	<h1>JS Exercises</h1>
+<body>
+	<p>
+ 	1. Write a function that prints out the current date and time in 
+	the following format: "Today is: DayOfTheWeek, HH:MM DD/MM/YYYY".
+	Ex. "Today is: Monday, 7:00 13/3/2017"
+	</p>
+
+	<p>
+ 	2. Write a function to see if a given year is a leap year.
+	A year is a leap year if it is divisible by 4, except for 
+	years that are divisible by 100. The years that are divisible
+	by 400 however are leap years.
+	</p>
+
+	<p>
+ 	3. Write a function that plays a guessing game.
+	-pick a random number between 1-20
+	-use prompt() to get user input
+	-check if guess matches or not
+		-if match -> give congratulations message with # of tries
+		-if fail -> reprompt for next guess 
+	</p>
+
+	<p>
+	4. Write a function which takes a string and a letter. It returns 
+	the number of times the letter appears in the string
+	</p>
+
+	<p>
+ 	5. Write a function that takes an array of numbers and prints the 
+	smallest and largest numbers from the array.
+	</p>
+
+	<p>
+ 	6. Write a function which takes an object as a parameter and prints
+	all the property names and their values. Also give the total number of
+	properties in the object./p>
+	</p>
+
+	<p>
+ 	7. Use the following array for this problem. <br>
+	
+	var library = [ 
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }];
+
+   <br>
+   Write a function which takes as its parameter the above array. Then 
+   for each of the elements write a log to the console. Here are example
+   logs: "I am reading 'The Road Ahead' by Bill Gates",
+   		 "I will read 'Mockingjay: The Final Book of The Hunger Games' by Suzanne Collins"
+   If the readingStatus is true, then it should say "am reading", and
+   if the readingStatus is false, then it should say "will read".
+	</p>
+
+	<ol>
+		<li>Answer 1
+		<button class="btn btn-primary" id="btn0">Click For Answer 1</button>
+		<p id="answer0"></p></li>
+		
+		<br>
+		<li>Answer 2
+		<input type="text" id="year" placeholder="Year">
+		<button class="btn btn-primary" id="btn1">Click For Answer 2</button>
+		<p id="answer1"></p></li>
+		
+		<br>
+		<li>Answer 3
+		<button class="btn btn-primary" id="btn2">Click For Answer 3</button>
+		<p id="answer2"></p></li>
+		
+		<br>
+		<li>Answer 4
+		<input type="text" id="Letter" placeholder="Letter">
+		<input type="text" id="String" placeholder="String">
+		<button class="btn btn-primary" id="btn3">Click For Answer 4</button>
+		<p id="answer3"></p></li>
+		
+		<br>
+		<li>Answer 5
+		<input type="text" id="array1">
+		<button class="btn btn-primary" id="btn4">Click For Answer 5</button>
+		<p id="answer4"></p></li>
+		
+		<br>
+		<li>Answer 6
+		<button class="btn btn-primary" id="btn5">Click For Answer 6</button>
+		<p id="answer5"></p></li>
+		
+		<br>
+		<li>Answer 7
+		<button class="btn btn-primary" id="btn6">Click For Answer 7</button>
+		<p id="answer6"></p></li>
+		
+	</ol>
+
+
+
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
